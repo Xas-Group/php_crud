@@ -95,7 +95,7 @@
                                 confirmButtonText: 'OK'
                             }).then((result) => {
                                 if (result.isConfirmed) {
-                                    window.location.href = 'dashboard.php';
+                                    window.location.href = 'login.php';
                                 }
                             });
                         } else {
